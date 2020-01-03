@@ -1,0 +1,25 @@
+#surefire
+#Fri Jan 03 03:48:23 UTC 2020
+tc.0=pujikal.com.AppTest
+classPathUrl.0=/home/ubuntu/practicemaven/target/test-classes
+classPathUrl.1=/home/ubuntu/practicemaven/target/classes
+classPathUrl.2=/home/ubuntu/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar
+surefireClassPathUrl.0=/home/ubuntu/.m2/repository/org/apache/maven/surefire/surefire-junit3/2.17/surefire-junit3-2.17.jar
+surefireClassPathUrl.1=/home/ubuntu/.m2/repository/org/apache/maven/surefire/surefire-api/2.17/surefire-api-2.17.jar
+enableAssertions=true
+childDelegation=false
+preferTestsFromInStream=false
+testSuiteDefinitionTestSourceDirectory=/home/ubuntu/practicemaven/src/test/java
+failIfNoTests=false
+includes0=**/Test*.java
+includes1=**/*Test.java
+includes2=**/*TestCase.java
+excludes0=**/*$*
+testClassesDirectory=/home/ubuntu/practicemaven/target/test-classes
+runOrder=filesystem
+runStatisticsFile=/home/ubuntu/practicemaven/.surefire-CA77B550C28DB76921D4A44B6322CE2CBF8DB1E1
+isTrimStackTrace=true
+reportsDirectory=/home/ubuntu/practicemaven/target/surefire-reports
+useSystemClassLoader=true
+useManifestOnlyJar=true
+providerConfiguration=org.apache.maven.surefire.junit.JUnit3Provider
