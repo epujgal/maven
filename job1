@@ -1,0 +1,24 @@
+pipeline {
+   //agent mavenagent
+   agent { node { label 'mavenagent' } }
+
+   stages {
+      stage('checkout') {
+         steps {
+            // Get some code from a GitHub repository
+            git branch: 'firstproject', url: 'https://github.com/epujgal/maven.git'
+
+         }
+         
+      }
+      stage('build') {
+          
+          steps {
+               sh "mvn -f pom.xml validate"
+               sh "mvn -f pom.xml clean package"
+          }
+      }
+
+      }
+}
+   
